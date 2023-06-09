@@ -64,9 +64,9 @@
   gap: 1rem;
 }
 
-.todo ul li {
-  /* border: 1px solid #b81414; */
-}
+/* .todo ul li {
+  border: 1px solid #b81414;
+} */
 
 .todo ul li .id {
   display: flex;
@@ -77,9 +77,9 @@
   justify-content: space-around;
 }
 
-.todo ul li .btns button {
-  /* background-color: hsl(0, 3%, 47%); */
-}
+/* .todo ul li .btns button {
+  background-color: hsl(0, 3%, 47%);
+} */
 
 .todo ul li .btns button img {
   color: #e2e2e2;
@@ -87,5 +87,18 @@
 
 .todo ul li .btns img {
   width: 16px;
-  filter: invert(100%) sepia(13%) saturate(7500%) hue-rotate(177deg) brightness(113%) contrast(115%);
+  filter: invert(52%) sepia(0%) saturate(3964%) hue-rotate(145deg) brightness(111%) contrast(90%);
+}
+
+form {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputText {
+  padding: 5px;
+
 }
